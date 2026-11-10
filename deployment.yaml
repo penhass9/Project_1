@@ -15,7 +15,7 @@ spec:
         app: flask-app
     spec:
       containers:
-      - name: flask-container
+      - name: flask-app
         image: penhass9/flask-app:v1.0
         ports:
         - containerPort: 5000
