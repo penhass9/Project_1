@@ -17,6 +17,7 @@ spec:
       containers:
       - name: flask-app
         image: penhass9/flask-app:v1.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
 ---
